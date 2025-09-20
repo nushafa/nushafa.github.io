@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — YPIS</title>
+  <meta name="description" content="Contact the school office and send us a message." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="School home">
+      <img src="images/Logo.jpeg" alt="School logo" width="40" height="40" />
+      <span>Youth Phase International School</span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-label">Menu</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="notices.html">Notices</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="container">
+
+<h1>Contact</h1>
+<p>Use the form to send a message to the school office.</p>
+<h3>Phone:</h3>
+<p>+880 1975550000 OR +880 9617184040</p>
+<h3>Email:</h3>
+<p>youthphase.office@gmail.com</p>
+<h3>Address:</h3> 
+<p>23 Shaheed Capt. Monsur Ali Sharani Ramna, Dhaka-1217</p>
+<h3>Facebook: </h3>
+<p>Youth Phase International School</p>
+<h3>Form:</h3>
+<form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+  <label for="name">Name</label>
+  <input id="name" name="name" type="text" required />
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" required />
+  <label for="message">Message</label>
+  <textarea id="message" name="message" rows="6" required></textarea>
+  <button class="btn" type="submit">Send</button>
+  <p class="form-note">We do not collect sensitive personal information. By using this form, you agree to our simple data policy.</p>
+</form>
+
+<section class="awards">
+  <h2>Why YPIS?</h2>
+  <p>Here are six reasons for choosing YPIS:</p>
+  <ul>
+    <li>Dedicated faculty</li>
+    <li>Safe learning environment</li>
+    <li>Emphasis on character development & values</li>
+    <li>Small class sizes for personalized attention</li>
+    <li>Proven track record of student success</li>
+    <li>Welcoming and inclusive community</li>
+  </ul>
+  <h2>Skill-based Curriculum</h2>
+  <ul>
+    <li>Year round co-curricular activities to instill skills in students</li>
+    <li>Spelling Bee</li>
+    <li>Public Speaking</li>
+    <li>Debate</li>
+    <li>Science Fair</li>
+    <li>Writing Competition</li>
+  </ul>
+  <h2>IGCSE Achievement</h2>
+  <ul>
+    <li>34% of the students achieved <b>Edexcel High Achiever's Award</b> in IGCSE</li>
+    <li>42% of the students achieved <b>Daily Star Award</b> in IGCSE</li>
+  </ul>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year">2025</span> YPIS. All rights reserved.</p>
+    <p>Phone: +880 1975550000 | Email: youthphase.office@gmail.com</p>
+    <p><a href="sitemap.xml">Sitemap</a> · <a href="robots.txt">Robots</a></p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
